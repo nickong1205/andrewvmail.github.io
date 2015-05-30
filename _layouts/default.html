@@ -18,7 +18,7 @@
   </head>
 
   <body class="Site">
-    <header>
+    <header class="Site-header">
       <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
       <div class="site-info">
@@ -26,17 +26,26 @@
         <p class="site-description">{{ site.description }}</p>
       </div>
 
+<!-- <ul id="menu-main_menu" class="nav navbar-right navbar-nav nav-primary"><li id="menu-item-14" class="home menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-13 current_page_item menu-item-14"><a href="http://nick.dev/">Home</a></li>
+<li id="menu-item-4" class="about menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a href="http://nick.dev/sample-page/">
+<li id="menu-item-23" class="gallery menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://nick.dev/gallery/">
+<li id="menu-item-63" class="blog menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://nick.dev/blog/">
+<li id="menu-item-6" class="contact menu-item menu-item-type-post_type menu-item-object-page menu-item-6"><a href="http://nick.dev/contact/">
+</ul> -->
+
       <nav>
-        <a href="{{ site.baseurl }}/">Blog</a>
-        <a href="{{ site.baseurl }}/about">About</a>
+        <li class="menu-item about"><a href="{{ site.baseurl }}/about" class="about">About</a></li>
+        <li class="menu-item portfolio"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
+        <li class="menu-item blog"><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
+        <li class="menu-item contact"><a href="{{ site.baseurl }}/contact" class="contact">Contact</a></li>
       </nav>
     </header>
 
-    <div id="main" role="main" class="Site-content container">
+    <main class="Site-content">
       {{ content }}
-    </div>
+    </main>
 
-    <footer class="footer">
+    <footer class="Site-footer">
       {% include svg-icons.html %}
     </footer>
 

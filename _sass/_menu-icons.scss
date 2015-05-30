@@ -1,0 +1,41 @@
+  
+li.menu-item a:after{ 
+	background-size: 25px 25px;
+	margin: auto; 
+	display: block;
+	text-decoration:none;
+	content:"";
+	font-color: #9D9D9D;
+	width: 25px;
+	height: 25px;
+}
+
+li.menu-item { 
+	color: white; 
+	font-size: 15px;
+	display: inline-block;
+}
+li.menu-item a:after{ 
+	 margin: auto; 
+	 display: block;
+	 font-size: 30px !important;
+	 text-decoration:none;
+	 background-size: 50px 50px;
+	 content:"";
+	 width: 50px;
+	 height: 50px;
+	 font-color: #9D9D9D;
+} 
+
+
+
+  li.menu-item.about a:after{ background-image: url(images/icons/about.png); } 
+  li.menu-item.contact a:after{ background-image: url(images/icons/contact.png); } 
+  li.menu-item.linkedin a:after{ background-image: url(images/icons/linkedin.png); } 
+  li.menu-item.instagram a:after{ background-image: url(images/icons/instagram.png); } 
+  li.menu-item.home a:after{ background-image: url(images/icons/home.png); } 
+  li.menu-item.portfolio a:after{ background-image: url(images/icons/portfolio.png); } 
+  li.menu-item.blog a:after{ background-image: url(images/icons/blog.png); } 
+  li.menu-item.facebook a:after{ background-image: url(images/icons/facebook.png); } 
+  li.menu-item.dribble a:after{ background-image: url(images/icons/dribble.png); } 
+

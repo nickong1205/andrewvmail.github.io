@@ -5,22 +5,51 @@
  *    minimum size.
  * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
  */
-
+html { height:100%; }
 .Site {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
-  height: 100%; /* 1, 3 */
+  height: 100%;
 }
 
 .Site-header,
 .Site-footer {
   flex: none; /* 2 */
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
 }
 
 .Site-content {
-  flex: 1 0 auto; /* 2 */
-  padding: var(--space) var(--space) 0;
+  // flex: 1 0 auto; /* 2 */
+  // flex: 1;
+  // padding: var(--space) var(--space) 0;
+  // width: 100%;
+  // 
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding: 1.5em 1.5em 0;
   width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
 }
 .Site-content::after {
   content: '\00a0'; /* &nbsp; */
