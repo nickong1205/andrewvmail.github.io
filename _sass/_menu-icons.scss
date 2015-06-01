@@ -11,10 +11,14 @@ li.menu-item a:after{
 }
 
 li.menu-item { 
-	color: white; 
-	font-size: 15px;
-	display: inline-block;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding-bottom: 8px;
 }
+
 li.menu-item a:after{ 
 	 margin: auto; 
 	 display: block;
@@ -29,13 +33,30 @@ li.menu-item a:after{
 
 
 
-  li.menu-item.about a:after{ background-image: url(images/icons/about.png); } 
-  li.menu-item.contact a:after{ background-image: url(images/icons/contact.png); } 
-  li.menu-item.linkedin a:after{ background-image: url(images/icons/linkedin.png); } 
-  li.menu-item.instagram a:after{ background-image: url(images/icons/instagram.png); } 
-  li.menu-item.home a:after{ background-image: url(images/icons/home.png); } 
-  li.menu-item.portfolio a:after{ background-image: url(images/icons/portfolio.png); } 
-  li.menu-item.blog a:after{ background-image: url(images/icons/blog.png); } 
-  li.menu-item.facebook a:after{ background-image: url(images/icons/facebook.png); } 
-  li.menu-item.dribble a:after{ background-image: url(images/icons/dribble.png); } 
+li.menu-item a:hover {
+	color: white;
+}
 
+li.menu-item:hover {
+	border-bottom: solid 2px white;
+}
+
+li.menu-item.about a:after{ background-image: url(images/icons/about_black.png); } 
+li.menu-item.about a:hover:after{ background-image: url(images/icons/about_white.png); } 
+
+li.menu-item.contact a:after{ background-image: url(images/icons/contact_black.png); } 
+li.menu-item.contact a:hover:after{ background-image: url(images/icons/contact_white.png); } 
+
+li.menu-item.home a:after{ background-image: url(images/icons/home_black.png); } 
+li.menu-item.home a:hover:after{ background-image: url(images/icons/home_white.png); } 
+
+li.menu-item.portfolio a:after{ background-image: url(images/icons/portfolio_black.png); } 
+li.menu-item.portfolio a:hover:after{ background-image: url(images/icons/portfolio_white.png); } 
+
+li.menu-item.blog a:after{ background-image: url(images/icons/blog_black.png); } 
+li.menu-item.blog a:hover:after{ background-image: url(images/icons/blog_white.png); } 
+
+li.menu-item.facebook a:after{ background-image: url(images/icons/facebook.png); } 
+li.menu-item.dribble a:after{ background-image: url(images/icons/dribble.png); } 
+li.menu-item.linkedin a:after{ background-image: url(images/icons/linkedin.png); } 
+li.menu-item.instagram a:after{ background-image: url(images/icons/instagram.png); } 

@@ -6,6 +6,9 @@
  * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
  */
 html { height:100%; }
+a { text-decoration: none; }
+
+
 .Site {
   display: -webkit-box;
   display: -webkit-flex;
