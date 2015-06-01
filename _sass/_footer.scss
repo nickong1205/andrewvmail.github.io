@@ -1,4 +1,11 @@
 footer {
-	background-color: $primary;
-	border-top: 1px solid #000;
+	border-top: 3vh solid $gray;
+	padding: 0px;
+
+	nav {
+		margin-top: 0px;
+		float: left;
+	}
+
+
 }
