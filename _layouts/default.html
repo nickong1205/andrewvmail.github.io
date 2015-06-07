@@ -26,14 +26,8 @@
       <p class="site-description">{{ site.description }}</p>
       </div>
 
-<!-- <ul id="menu-main_menu" class="nav navbar-right navbar-nav nav-primary"><li id="menu-item-14" class="home menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-13 current_page_item menu-item-14"><a href="http://nick.dev/">Home</a></li>
-<li id="menu-item-4" class="about menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a href="http://nick.dev/sample-page/">
-<li id="menu-item-23" class="gallery menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://nick.dev/gallery/">
-<li id="menu-item-63" class="blog menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://nick.dev/blog/">
-<li id="menu-item-6" class="contact menu-item menu-item-type-post_type menu-item-object-page menu-item-6"><a href="http://nick.dev/contact/">
-</ul> -->
-
       <nav>
+        <li class="menu-item home"><a href="{{ site.baseurl }}/" class="home">Home</a></li>
         <li class="menu-item about"><a href="{{ site.baseurl }}/about" class="about">About</a></li>
         <li class="menu-item portfolio"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
         <li class="menu-item blog"><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
@@ -49,6 +43,8 @@
       {% include social-icons.html %}
     </footer>
 
+    {% include scripts.html %}
     {% include analytics.html %}
+    
   </body>
 </html>

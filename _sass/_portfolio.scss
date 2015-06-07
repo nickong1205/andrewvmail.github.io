@@ -1,0 +1,18 @@
+// .item.w1 { width: 20% ; }
+// .item.w2 { width: 30%; }
+
+.container { width: 100vw; }
+
+// .grid-sizer {
+//   width: 10%;
+// }
+// 
+.item { margin-left: 0%; }
+
+@media (min-width: 550px) {
+	.item.three { width: 33.3333% ; }
+}
+
+@media (min-width: 1025px) {
+	.item.three { width: 25%; }
+}
