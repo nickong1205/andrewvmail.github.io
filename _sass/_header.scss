@@ -1,7 +1,17 @@
 header {
-	background-color: $primary;
-	padding-top: 5px;
+	background-color: white;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	nav { margin-top: 0px; }
-	nav a { margin: 0px; }
+	nav a { color: $secondary; margin: 0px; }
+
+	.site-name { color: $primary; }
+	.site-description { color: $secondary; }
+
+	li.menu-item.current a { color: white; }
+
+li.menu-item { color: $secondary; }
+li.menu-item:hover a { color: white; }
+
+
 }

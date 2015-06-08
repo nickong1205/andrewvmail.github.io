@@ -5,7 +5,7 @@
  *    minimum size.
  * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
  */
-html { height:100%; }
+html { height:100%; overflow-y: scroll; overflow-x: hidden; }
 a { text-decoration: none; }
 
 
@@ -44,12 +44,26 @@ a { text-decoration: none; }
   flex: 1 0 auto;
   // padding: 1.5em 1.5em 0;
   padding: 0px;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  // -webkit-box-align: center;
+  // -webkit-align-items: center;
+  // -ms-flex-align: center;
+  // align-items: center;
+  // -webkit-box-pack: center;
+  // -webkit-justify-content: center;
+  // -ms-flex-pack: center;
+  // justify-content: center;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  // height: 24em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;

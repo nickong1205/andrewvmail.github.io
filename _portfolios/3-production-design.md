@@ -64,7 +64,7 @@ images:
     class: w2
 ---
 
-<div class="container">
+<div class="container portfolio">
 	  {% for image in page.images %}
 	  <a href="{{page.imagefolder}}{{image.name}}" data-imagelightbox="f">
 	  		<img class="item {{image.class}} three columns" src="{{page.imagefolder}}{{image.thumb}}" alt="{{image.text}}">

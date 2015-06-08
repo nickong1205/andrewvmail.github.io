@@ -5,7 +5,6 @@ permalink: /portfolio/
 ---
 
 <div class="container portfolio">
-	<div class="row">
 	  {% for portfolio in site.portfolios %}
 	    <div class="three columns portfolio-box">
 
@@ -20,7 +19,6 @@ permalink: /portfolio/
 	      
 	    </div>
 	  {% endfor %}
-	</div>
 </div>
 
 

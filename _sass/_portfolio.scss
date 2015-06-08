@@ -1,7 +1,11 @@
 // .item.w1 { width: 20% ; }
 // .item.w2 { width: 30%; }
 
-.container { width: 100vw; }
+.container.portfolio { 
+	width: 100vw; 
+	background-color: black;
+}
+
 
 // .grid-sizer {
 //   width: 10%;
@@ -120,11 +124,10 @@
 
 		footer
 		{
-			font-size: 0.875em; /* 14 */
-			color: #aaa;
-			border-top: 1px solid #ddd;
-			padding-top: 2.143em; /* 30 (14) */
-			margin-top: 2.143em; /* 30 (14) */
+			// font-size: 0.875em; /* 14 */
+			
+			// padding-top: 2.143em; /* 30 (14) */
+			// margin-top: 2.143em; /* 30 (14) */
 		}
 
 

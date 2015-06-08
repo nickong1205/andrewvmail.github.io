@@ -1,3 +1,5 @@
+{% assign current = page.url | downcase | split: '/' %}
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,11 +29,11 @@
       </div>
 
       <nav>
-        <li class="menu-item home"><a href="{{ site.baseurl }}/" class="home">Home</a></li>
-        <li class="menu-item about"><a href="{{ site.baseurl }}/about" class="about">About</a></li>
-        <li class="menu-item portfolio"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
-        <li class="menu-item blog"><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
-        <li class="menu-item contact"><a href="{{ site.baseurl }}/contact" class="contact">Contact</a></li>
+        <li class="menu-item home {% if current[1] == '' %}current{% endif %}"><a href="{{ site.baseurl }}/" class="home">Home</a></li>
+        <li class="menu-item about {% if current[1] == 'about' %}current{% endif %}"><a href="{{ site.baseurl }}/about" class="about">About</a></li>
+        <li class="menu-item portfolio {% if current[1] == 'portfolio' %}current{% endif %}"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
+        <li class="menu-item blog {% if current[1] == 'blog' %}current{% endif %}"><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
+        <li class="menu-item contact {% if current[1] == 'contact' %}current{% endif %}"><a href="{{ site.baseurl }}/contact" class="contact">Contact</a></li>
       </nav>
     </header>
 
