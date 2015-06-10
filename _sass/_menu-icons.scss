@@ -16,13 +16,18 @@ li.menu-item a:after{
 
 li.menu-item { 
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+	font-family: KG;
   display: inline-block;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 30px;
   margin-right: -4px;
+	-webkit-text-stroke-color: rgb(255,255,255);
+	// -webkit-text-stroke-width: 1px;
+	-webkit-font-smoothing: antialiased;
+	font-weight:100;
   // border-bottom: solid 2px $primary;
 }
 
@@ -33,7 +38,7 @@ li.menu-item:hover, li.menu-item.current a:after {
 li.menu-item a:after{ 
 	 margin: auto; 
 	 display: block;
-	 font-size: 30px !important;
+	 font-size: 16px;
 	 text-decoration:none;
 	 background-size: 50px 50px;
 	 content:"";

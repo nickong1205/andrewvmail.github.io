@@ -4,12 +4,30 @@ title: Home
 permalink: /
 ---
 
-Some information about you!
+		<!-- Slideshow 1 -->
+    <div class="rslides_container">
+      <ul class="rslides" id="slider1">
+        <li class="image-container"><img src="../1.jpg" alt="" class="slide-photo"></li>
+        <li class="image-container"><img src="../2.jpg" alt="" class="slide-photo"></li>
+        <li class="image-container"><img src="../3.jpg" alt="" class="slide-photo"></li>
+      </ul>
+    </div>
 
-### More Information
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-A place to include any other types of information that you'd like to include about yourself.
+<script>
+    $(function () {
 
-### Contact me
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: true,
+        // pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 1920,
+        namespace: "centered-btns"
+      });
 
-[email@domain.com](mailto:email@domain.com)
+      // $('.image-container').imagefill(); 
+    });
+  </script>

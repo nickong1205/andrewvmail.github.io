@@ -13,6 +13,10 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/responsiveslides.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/theme.css" />
+
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -21,17 +25,18 @@
 
   <body class="Site">
     <header class="Site-header">
-      <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
       <div class="site-info">
         <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-      <p class="site-description">{{ site.description }}</p>
+        <p class="site-description">{{ site.description }}</p>
       </div>
 
       <nav>
-        <li class="menu-item home {% if current[1] == '' %}current{% endif %}"><a href="{{ site.baseurl }}/" class="home">Home</a></li>
-        <li class="menu-item about {% if current[1] == 'about' %}current{% endif %}"><a href="{{ site.baseurl }}/about" class="about">About</a></li>
-        <li class="menu-item portfolio {% if current[1] == 'portfolio' %}current{% endif %}"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
+        <li class="menu-item home {% if current[1] == null %}current{% endif %}"><a href="{{ site.baseurl }}/" class="home">Home</a></li>
+        <li class="menu-item about {% if current[1] == 'about' %}current{% endif %}"
+
+        ><a href="{{ site.baseurl }}/about" class="about">About</a></li>
+        <li class="menu-item portfolio {% if (current[1] == 'portfolio' or current[1] == 'personal-work' or current[1] == 'character-design' or current[1] == 'illustration' or current[1] == 'production-design' ) %}current{% endif %}"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
         <li class="menu-item blog {% if current[1] == 'blog' %}current{% endif %}"><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
         <li class="menu-item contact {% if current[1] == 'contact' %}current{% endif %}"><a href="{{ site.baseurl }}/contact" class="contact">Contact</a></li>
       </nav>

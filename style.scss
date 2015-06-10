@@ -285,6 +285,62 @@ footer {
   text-align: center;
 }
 
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  // width: 100%;
+  border: 0;
+  }
+
+  // .slide-photo {
+  //   float: none;
+  //   width: auto;
+  //   height: auto;
+  //   max-height: 1000px; /* <= set max-height here */
+  //   margin: 0 auto; /* auto left/right margin for centering */
+  // }
+
+  // #bg {
+  //   position: fixed; 
+  //   top: 0; 
+  //   left: 0; 
+    
+  //   /* Preserve aspet ratio */
+  //   min-width: 100%;
+  //   min-height: 100%;
+  // }
+
+  .image-container{
+    
+  }
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
