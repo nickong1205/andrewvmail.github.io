@@ -130,6 +130,8 @@ div.mc-image {
 			a:hover {text-decoration:underline;}
 			
 			.in-slide-content { 
+				box-shadow: 0px 5px 20px #8D8D8D;
+				border-radius: 25px;
 				background-color: #49A8BA;
 				color:white;
 				float:right;
