@@ -22,9 +22,14 @@ article.page.About {
   flex-flow: row;
 
 }
+
+
+
 .Site.About { 
 	background-color:white;
 	p {
+		font-size:20px;
+		font-family: OpificioN;
 		color:$secondary;
 	}
 }
@@ -33,11 +38,19 @@ article.page.About {
 	padding-right:50px;
 	background-color:$primary;
 	h1 {
+		font-family:Opificio;
 		color:white;
-		font-family:Eras;
 		font-size: 50px;
+		font-weight: 100;
+		-webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0px;
+    -webkit-font-smoothing: antialiased;
 	}
 	
+}
+
+.content-box {
+	margin-right:10px;
 }
 
 

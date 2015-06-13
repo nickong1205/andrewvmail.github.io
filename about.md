@@ -17,7 +17,7 @@ permalink: /about/
 
 <div class="right-side">
 
-<div>
+<div class="content-box">
 	<div class="page-headings"><h1 class="page-headings-text">About Nicholas Hong</h1></div>
 	
 	<p>Hi Thanks for visiting!</p>
