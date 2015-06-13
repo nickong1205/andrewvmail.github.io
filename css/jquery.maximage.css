@@ -131,15 +131,15 @@ div.mc-image {
 			
 			.in-slide-content { 
 				box-shadow: 0px 5px 20px #8D8D8D;
-				border-radius: 25px;
+				/*border-radius: 25px;*/
 				background-color: #49A8BA;
 				color:white;
 				float:right;
 				font-family: Arista, helvetica;
 				font-size:40px;
 				right:0;
-				margin:40px;
-				padding: 0px 15px 0px 15px;
+				margin:40px 0px 0px 0px;
+				padding: 0px 25px 0px 15px;
 				position:absolute;
 				bottom:0;
 				/*width:700px;*/

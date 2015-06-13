@@ -10,6 +10,22 @@ li.menu-item a:after{
 	height: 25px;
 }
 
+li.menu-item.footer a:after{ 
+	background-size: 30px 30px;
+	margin: auto; 
+	display: block;
+	text-decoration:none;
+	content:"";
+	font-color: #9D9D9D;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+li.menu-item.footer { 
+	padding: 10px 10px 40px 20px;
+}
+
 .current { 
 	background-color: $primary;
 }
@@ -31,7 +47,9 @@ li.menu-item {
   // border-bottom: solid 2px $primary;
 }
 
-li.menu-item:hover, li.menu-item.current a:after { 
+
+
+li.menu-item.nav:hover, li.menu-item.nav.current a:after { 
 	background-color: $primary;
 }
 
@@ -49,7 +67,7 @@ li.menu-item a:after{
 
 
 
-li.menu-item a:hover {
+li.menu-item.nav a:hover {
 	color: white;
 	background-color: $primary;
 }
@@ -58,7 +76,7 @@ li.menu-item a:hover {
 // 	border-bottom: solid 2px white;
 // }
 // 
-li.menu-item a:hover:after { background-color: $primary;}
+li.menu-item.nav a:hover:after { background-color: $primary;}
 
 li.menu-item.about a:after{ background-image: url(images/icons/about_black.png); } 
 li.menu-item.about.current a:after, li.menu-item.about:hover a:after{ background-image: url(images/icons/about_white.png);} 
@@ -76,6 +94,13 @@ li.menu-item.blog a:after{ background-image: url(images/icons/blog_black.png); }
 li.menu-item.blog:hover a:after, li.menu-item.blog.current a:after{ background-image: url(images/icons/blog_white.png); } 
 
 li.menu-item.facebook a:after{ background-image: url(images/icons/facebook.png); } 
+li.menu-item.facebook:hover a:after, li.menu-item.facebook.current a:after{ background-image: url(images/icons/facebook_v2.png); } 
+
 li.menu-item.dribble a:after{ background-image: url(images/icons/dribble.png); } 
+li.menu-item.dribble:hover a:after, li.menu-item.dribble.current a:after{ background-image: url(images/icons/dribble_v2.png); } 
+
 li.menu-item.linkedin a:after{ background-image: url(images/icons/linkedin.png); } 
+li.menu-item.linkedin:hover a:after, li.menu-item.linkedin.current a:after{ background-image: url(images/icons/linkedin_v2.png); } 
+
 li.menu-item.instagram a:after{ background-image: url(images/icons/instagram.png); } 
+li.menu-item.instagram:hover a:after, li.menu-item.instagram.current a:after{ background-image: url(images/icons/instagram_v2.png); } 

@@ -1,0 +1,44 @@
+main.Site-content.About {
+	display: flex;
+  flex-flow: column;
+}
+
+.right-side, .left-side {
+	flex:1;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-side { margin-left: 110px;}
+.left-side {
+	background-color: gray;
+}
+
+
+article.page.About { 
+	width:100%; height:100%; 
+	flex:2;
+	display: flex;
+  flex-flow: row;
+
+}
+.Site.About { 
+	background-color:white;
+	p {
+		color:$secondary;
+	}
+}
+.page-headings {
+	text-align:right;
+	padding-right:50px;
+	background-color:$primary;
+	h1 {
+		color:white;
+		font-family:Eras;
+		font-size: 50px;
+	}
+	
+}
+
+
+
