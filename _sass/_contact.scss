@@ -1,0 +1,33 @@
+.Site.Contact {
+	background-color: $primary;
+	text-align: center;
+}
+
+.page.Contact {
+	width: 838px;
+}
+
+.contact-headings, .contact-content, .contact-email {
+	font-family: Opificio;
+	color:white;
+	font-weight:100;
+	-webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.contact-headings {
+	font-size:50px;
+}
+
+.contact-content {
+	font-size:20px;
+}
+
+.contact-image {
+	margin:20px;
+}
+
+.contact-email {
+	font-size:30px;
+}

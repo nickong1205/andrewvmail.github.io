@@ -20,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  background-color: $white !important;
+  background-color: $white;
   // font: 18px/1.4 $helvetica;
   color: $darkGray;
   font-family: 'Arista', sans-serif;
@@ -284,6 +284,7 @@ nav {
 
 footer {
   // padding: 20px 0;
+  background-color: white;
   text-align: center;
 }
 
@@ -299,3 +300,4 @@ footer {
 @import "portfolios";
 @import "portfolio";
 @import "about";
+@import "contact";

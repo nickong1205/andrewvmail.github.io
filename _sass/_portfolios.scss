@@ -1,3 +1,7 @@
+.Site.Portfolio {
+	background-color: white;
+}
+
 .container .portfolio {
 	width: 100vw;
 	max-width: 100vw;
@@ -38,11 +42,6 @@
 	margin:auto;
 	background-color: $lightGray;
 	-webkit-transform: translateZ(0);
-	// box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.8);
-	border-bottom:2px solid #fff;
-	// border-right:2px solid #fff;
-	// margin:5% auto 0 auto; 
-	// border-radius:5px;
 }
 
 .portfolio-image { 
