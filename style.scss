@@ -8,6 +8,8 @@
 @import "reset";
 @import "variables";
 @import "fonts";
+@import "mixins";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -301,3 +303,4 @@ footer {
 @import "portfolio";
 @import "about";
 @import "contact";
+@import "blog";

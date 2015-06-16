@@ -1,0 +1,58 @@
+.Site.Blog {
+	background-color: $primary;
+}
+
+.Site-content.Blog {
+	display: flex;
+	flex-flow: column;
+	width: inherit;
+}
+
+.posts { 
+	background-color: white;
+	width:94vw;
+	flex:1;
+}
+
+.post {
+	max-width: 780px;
+	margin: auto;
+	background-color: $bloggray;
+	padding:20px;
+}
+
+.post-title, .post-subtitle {
+	font-family: Opificio;
+	padding:0px; margin: 0px;
+}
+
+.post-title {
+	color: gray;
+	@include thinfont;
+}
+.post-subtitle {
+	color: $blogorange;
+	@include thinfont;
+}
+
+.post-image {
+	width:100%;
+}
+
+.posts > .post {
+	margin-top: 3em;
+  margin-bottom: 3em;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.date {
+	display: inline-block;
+
+}
+
+.likes {
+	display: inline-block;
+	float: right;
+
+
+}

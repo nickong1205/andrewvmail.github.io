@@ -11,10 +11,12 @@
 	text-decoration: none;
 	font-family: Arista;
 	margin:10px;
-	  -webkit-text-stroke-color: white;
+	-webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 0px;
   -webkit-font-smoothing: antialiased;
   font-weight: 500;
+  color: $textgray;
+
 }
 
 .portfolio-title:hover {
@@ -24,10 +26,11 @@
 .portfolio-subtitle {
 	font-family: Opificio;
 	padding-bottom:20px;
-	  -webkit-text-stroke-color: white;
+	-webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 0px;
   -webkit-font-smoothing: antialiased;
   font-weight: 500;
+  padding-bottom: 50px;
 }
 
 @media (min-width: 550px) {

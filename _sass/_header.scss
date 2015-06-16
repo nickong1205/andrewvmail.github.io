@@ -1,4 +1,6 @@
 header {
+	
+	z-index:2;
 	background-color: white;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -23,9 +25,7 @@ header {
 	}
 
 	li.menu-item.current a { color: white; }
-
-li.menu-item { color: $secondary; }
-li.menu-item:hover a { color: white; }
-
-
+	li.menu-item { color: $secondary; }
+	li.menu-item:hover a { color: white; }
 }
+
