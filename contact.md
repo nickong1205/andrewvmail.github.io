@@ -8,6 +8,6 @@ permalink: /contact/
 
 <p class="contact-content">Drop a line if you have any question about my work. freelance. Who wants to work with me. I am happy to discuss it futher more!</p>
 
-<img class="contact-image" src="/images/momo.png">
+<img class="contact-image" src="/images/icons/contact_me.png">
 
 <p class="contact-email">Email: contact@nicholashongart.com</p>
