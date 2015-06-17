@@ -1,6 +1,8 @@
 ---
 layout: post
 title: You're up and running!
+subtitle: Momoterraw~!!!!
+image: http://placekitten.com.s3.amazonaws.com/homepage-samples/200/138.jpg
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
