@@ -10,4 +10,4 @@ permalink: /contact/
 
 <img class="contact-image" src="/images/icons/contact_me.png">
 
-<p class="contact-email">Email: contact@nicholashongart.com</p>
+<p class="contact-email"><img class="email-icon" src="/images/icons/email.png"> Email: contact@nicholashongart.com</p>

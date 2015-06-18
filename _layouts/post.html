@@ -1,17 +1,21 @@
 ---
 layout: default
 ---
+<div class="posts">
+	<article class="post">
+	  <h1 class="post-title">{{ page.title }}</h1>
+		<h2 class="post-subtitle">{{ page.subtitle }}</h2>
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+		<img class="post-image" src="{{ page.image }}">
 
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+	  <div class="post-entry">
+	    {{ content }}
+	  </div>
+	
+	  <div class="date">
+	    Written on {{ page.date | date: "%B %e, %Y" }}
+	  </div>
+	
+	  {% include disqus.html %}
+	</article>
+</div>

@@ -7,8 +7,10 @@ permalink: /blog/
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h1 class="post-title">{{ post.title }}</h1>
-      <h2 class="post-subtitle">{{ post.subtitle }}</h2>
+		    <a href="{{ post.url }}">
+		      <h1 class="post-title">{{ post.title }}</h1>
+		      <h2 class="post-subtitle">{{ post.subtitle }}</h2>
+		    </a>
 
        <img class="post-image" src="{{ post.image }}">
 
