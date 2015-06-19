@@ -8,3 +8,10 @@
 
 #arrow_right { right: 2.2em;}
 #arrow_left { left: 1.7em;}
+
+
+@include respond-to(handhelds) { 
+			.in-slide-content {
+				font-size: 15px;
+			}
+}
