@@ -2,7 +2,7 @@
 layout: portfolio
 title: Illustration
 subtitle: Children's Book Illustration
-image: /images/momo.png
+image: /images/portfolio-cover/1.jpg
 permalink: /illustration/
 ---
 

@@ -2,7 +2,7 @@
 layout: portfolio
 title: Production Design
 subtitle: Design for Animation/ UI Design
-image: /images/momo.png
+image: /images/portfolio-cover/2.jpg
 permalink: /production-design/
 imagefolder: /images/portfolios/production-design/
 images:

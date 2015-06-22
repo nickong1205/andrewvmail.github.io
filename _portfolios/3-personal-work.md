@@ -2,7 +2,7 @@
 layout: portfolio
 title: Personal Work
 subtitle: Illustration
-image: /images/momo.png
+image: /images/portfolio-cover/3.jpg
 permalink: /personal-work/
 imagefolder: /images/portfolios/personal-work/
 images:
