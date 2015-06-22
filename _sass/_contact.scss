@@ -32,6 +32,9 @@
 
 .contact-email {
 	font-size:30px;
+	a {color: white;}
+	a:hover { color: gray;}
+	a:visited { color: $secondary;}
 }
 
 .email-icon {

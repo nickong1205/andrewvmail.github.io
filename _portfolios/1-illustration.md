@@ -4,10 +4,70 @@ title: Illustration
 subtitle: Children's Book Illustration
 image: /images/portfolio-cover/1.jpg
 permalink: /illustration/
+imagefolder: /images/portfolios/illustration/
+images:
+  - name: 01.jpg
+    thumb: thumbnail/01.jpg
+    text: The first image
+    class: w1
+  - name: 02.jpg	
+    thumb: thumbnail/02.jpg
+    text: The second image
+    class: w2
+  - name: 03.jpg
+    thumb: thumbnail/03.jpg
+    text: The third image
+    class: w1
+  - name: 04.jpg
+    thumb: thumbnail/04.jpg
+    text: The third image
+    class: w2
+  - name: 05.jpg
+    thumb: thumbnail/05.jpg
+    text: The third image
+    class: w1
+  - name: 06.jpg
+    thumb: thumbnail/06.jpg
+    text: The third image
+    class: w1
+  - name: 07.jpg
+    thumb: thumbnail/07.jpg
+    text: The third image
+    class: w2
+  - name: 08.jpg
+    thumb: thumbnail/08.jpg
+    text: The third image
+    class: w2
+  - name: 09.jpg
+    thumb: thumbnail/09.jpg
+    text: The third image
+    class: w2
+  - name: 10.jpg
+    thumb: thumbnail/10.jpg
+    text: The third image
+    class: w2
+  - name: 11.jpg
+    thumb: thumbnail/11.jpg
+    text: The third image
+    class: w2
+  - name: 12.jpg
+    thumb: thumbnail/12.jpg
+    text: The third image
+    class: w2
+  - name: 13.jpg
+    thumb: thumbnail/13.jpg
+    text: The third image
+    class: w2
+  - name: 14.jpg
+    thumb: thumbnail/14.jpg
+    text: The third image
+    class: w2
+  - name: 15.jpg
+    thumb: thumbnail/15.jpg
+    text: The third image
+    class: w2
+  - name: 16.jpg
+    thumb: thumbnail/16.jpg
+    text: The third image
+    class: w2
 ---
-
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.

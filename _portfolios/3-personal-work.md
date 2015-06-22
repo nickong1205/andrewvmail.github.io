@@ -6,94 +6,87 @@ image: /images/portfolio-cover/3.jpg
 permalink: /personal-work/
 imagefolder: /images/portfolios/personal-work/
 images:
-  - name: red.png
-    thumb: thumb-1.jpg
+  - name: 01.jpg
+    thumb: thumbnail/01.png
     text: The first image
     class: w1
-  - name: teal.png	
-    thumb: thumb-2.jpg
+  - name: 02.jpg  
+    thumb: thumbnail/02.png
     text: The second image
     class: w2
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 03.jpg
+    thumb: thumbnail/03.png
     text: The third image
     class: w1
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 04.jpg
+    thumb: thumbnail/04.png
     text: The third image
     class: w2
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 05.jpg
+    thumb: thumbnail/05.png
     text: The third image
     class: w1
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 06.jpg
+    thumb: thumbnail/06.png
     text: The third image
     class: w1
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 07.jpg
+    thumb: thumbnail/07.png
     text: The third image
     class: w2
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 08.jpg
+    thumb: thumbnail/08.png
     text: The third image
     class: w2
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 09.jpg
+    thumb: thumbnail/09.png
     text: The third image
     class: w2
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 10.jpg
+    thumb: thumbnail/10.png
     text: The third image
     class: w2
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 11.jpg
+    thumb: thumbnail/11.png
     text: The third image
     class: w2
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 12.jpg
+    thumb: thumbnail/12.png
     text: The third image
     class: w2
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 13.jpg
+    thumb: thumbnail/13.png
     text: The third image
     class: w2
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 14.jpg
+    thumb: thumbnail/14.png
     text: The third image
     class: w2
-  - name: red.png
-    thumb: thumb-3.jpg
+  - name: 15.jpg
+    thumb: thumbnail/15.png
+    text: The first image
+    class: w1
+  - name: 16.jpg  
+    thumb: thumbnail/16.png
+    text: The second image
+    class: w2
+  - name: 17.jpg
+    thumb: thumbnail/17.png
+    text: The third image
+    class: w1
+  - name: 18.jpg
+    thumb: thumbnail/18.png
     text: The third image
     class: w2
-  - name: teal.png
-    thumb: thumb-3.jpg
+  - name: 19.jpg
+    thumb: thumbnail/19.png
     text: The third image
-    class: w2
+    class: w1
+  - name: 20.jpg
+    thumb: thumbnail/20.png
+    text: The third image
+    class: w1
+  - name: 21.jpg
+    thumb: thumbnail/21.png
+    text: The third image
 ---
-
-<div class="container">
-    <div class="gutter-sizer"></div>
-    <div class="grid-sizer"></div>
-	  {% for image in page.images %}
-	  <div class="item {{image.class}} three columns">
-	  		<img src="{{page.imagefolder}}{{image.name}}">
-  	</div>
-	  {% endfor %}
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/js/packery.pkgd.min.js"></script>
-<script src="/js/imagesloaded.pkgd.min.js"></script>
-<script type="text/javascript">
-				
-	// var $container = $('.container');
-  
- //  $container.packery({
- //  	itemSelector: '.item',
- //  	  gutter: 0,
-	// 	  "columnWidth": 0,
-	// 	  "rowHeight": 0
-	// }); 
-
-</script>
