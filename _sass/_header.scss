@@ -17,6 +17,8 @@ header {
 		@include respond-to(handhelds) { 
 			padding: 0px;
 			font-size:40px; 
+			margin: 0px;
+			text-align: center;
    	}
 	}
 
@@ -32,13 +34,15 @@ header {
 		@include respond-to(handhelds) { 
 			padding: 5px; 
 			font-size: 20px;
-			margin-right: 70px;
-			margin-bottom: 0px;
+			text-align: center;
    	}
 	}
 
 	.site-info {
 		margin-left: 20px;
+		@include respond-to(handhelds) { 
+			margin: 0px;
+   	}
 	}
 
 	li.menu-item.current a { color: white; }
