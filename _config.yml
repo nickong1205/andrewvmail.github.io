@@ -30,11 +30,11 @@ collections:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: contact@nickhongart.com
+  facebook: https://www.facebook.com/nickong1205
   flickr:
   github: barryclark/jekyll-now
-  instagram:
+  instagram: https://instagram.com/nickong1205/
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
