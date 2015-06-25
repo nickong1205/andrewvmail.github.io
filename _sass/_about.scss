@@ -20,17 +20,13 @@ main.Site-content.About {
 
 .right-side, .left-side {
 	flex:1;
-	width: 960px;
-	max-width: 960px;
+	// width: 960px;
+	// max-width: 960px;
 	display: flex;
   align-items: center;
   justify-content: center;
   // margin-top: auto;
   // margin-bottom: auto;
-	@include respond-to(handhelds) { 
-	 	margin:0px;
-	}
-
 }
 
 
