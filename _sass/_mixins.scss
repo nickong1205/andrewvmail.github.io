@@ -5,7 +5,7 @@
     font-weight:500;
 }
 
-$break-small:  640px;
+$break-small:  400px;
 $break-large: 1024px;
 
 @mixin respond-to($media) {

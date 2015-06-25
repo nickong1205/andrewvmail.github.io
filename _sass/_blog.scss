@@ -25,23 +25,35 @@
 
 .post-entry {
 	color: #7a7a7b;
+	line-height: 19px;
 	font-family: Opificio;
+	@include respond-to(handhelds) { 
+		font-size: 13px;
+	}
 }
 
 .post-title, .post-subtitle {
-	padding:0px; margin: 0px;
+	padding:0px; 
+	margin: 0px;
+
 }
 
 .post-title {
 	font-family: NexaBold;
 	color: gray;
 	@include thinfont;
+	@include respond-to(handhelds) { 
+			font-size: 24px;
+	}
 }
 .post-subtitle {
 	font-family: Opificio;
 	color: $blogorange;
 	padding-bottom: 5px;
 	@include thinfont;
+	@include respond-to(handhelds) { 
+			font-size: 18px;
+	}
 }
 
 .post-image {
@@ -57,6 +69,9 @@
 .date {
 	display: inline-block;
 	font-family: Opificio;
+	@include respond-to(handhelds) { 
+		font-size: 13px;
+	}
 
 }
 
@@ -64,6 +79,7 @@
 	font-family: Opificio;
 	display: inline-block;
 	float: right;
-
-
+	@include respond-to(handhelds) { 
+		font-size: 13px;
+	}
 }

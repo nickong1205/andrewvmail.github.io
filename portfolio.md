@@ -6,7 +6,7 @@ permalink: /portfolio/
 
 <div class="container portfolio">
 	  {% for portfolio in site.portfolios %}
-	    <div class="four columns">
+	    <div class="portfolio four columns">
 
 	      <div class="portfolio-box">
 		      	<a href="{{ portfolio.url }}">

@@ -8,9 +8,7 @@ permalink: /about/
 
 <div class="left-side">
 
-<div>
-	<!-- <p>hello</p> -->
-</div>
+<img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="about-image">
 
 </div>
 

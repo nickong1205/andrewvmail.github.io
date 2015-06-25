@@ -10,6 +10,9 @@ header {
 		@include respond-to(handhelds) { 
 			display: none; 
 		}
+		@include respond-to(medium-screens) { 
+			display: none; 
+		}
 	}
 	nav a { color: $secondary; margin: 0px; }
 
@@ -17,7 +20,7 @@ header {
 		@include respond-to(handhelds) { 
 			padding: 0px;
 			font-size:40px; 
-			margin: 0px;
+			margin: 0 0 5px 0;
 			text-align: center;
    	}
 	}
