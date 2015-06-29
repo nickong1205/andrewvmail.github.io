@@ -4,6 +4,10 @@
 //
 // IMPORTS
 //
+@import "hamburger-menu";
+@import "jquery.maximage";
+@import "normalize";
+@import "skeleton";
 
 @import "reset";
 @import "variables";
@@ -392,6 +396,7 @@ img {
 
 
 
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
@@ -406,8 +411,3 @@ img {
 @import "contact";
 @import "blog";
 @import "index";
-
-@import "hamburger-menu";
-@import "jquery.maximage";
-@import "normalize";
-@import "skeleton";
