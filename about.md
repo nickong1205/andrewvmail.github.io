@@ -4,31 +4,19 @@ title: About
 permalink: /about/
 ---
 
-
-
 <div class="left-side">
-
-<img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="about-image">
-
+	<img src="/images/profile.jpg" class="about-image">
 </div>
-
 
 <div class="right-side">
-
-<div class="content-box">
-	<div class="page-headings"><h1 class="page-headings-text">About Nicholas Hong</h1></div>
-	
-	<p>Hi Thanks for visiting!</p>
-	<p>I started drawing when I was little and found that time just flies and love feeling that I have my creation on paper after couple hours. Loves drawing & painting.</p>
-	
-	<p>Love kids and animals and love</p>
-	
-	<p>Enjoy to capture a picture and turn into his vision and imagination from his interpretation.</p>
-	
-	<p>Currently working in animation industry as designer and illustrate children's book on the side. Hope I can make a good book that kids can learn and they find my work interesting and fun.</p>
-	
-	<p>Very grateful about everytime that I can pursue creative path and would like to continue doing it.</p>
+	<div class="content-box">
+		<div class="page-headings">
+			<h1 class="page-headings-text">About Nicholas Hong</h1>
+		</div>
+		<p>Hi, thanks for visiting! </p>
+		<p>My love and passion for drawing began when I was young. I was intrigued by how time would fly quickly when I would draw. I also loved seeing my creations on my paper, after spending a couple of hours drawing.</p>
+		<p>My favourite aspect of drawing is how I can "capture" a picture and draw it to turn the picture into my point of view, using my imagination and interpretation.</p>
+		<p>I am currently working in the animation industry while illustrating children`s books on the side. My goal is to take part in a good children's book that is educational and I hope they find my artwork interesting and fun to look at.</p>
+		<p>I feel grateful and happy whenever I am able to use my creativity, and I would like to continue to pursue a path that requires creativity. </p>
+	</div>
 </div>
-</div>
-
-<!-- <div class="clearfix"></div> -->

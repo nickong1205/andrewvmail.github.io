@@ -18,4 +18,7 @@ $break-large: 1024px;
   @else if $media == wide-screens {
     @media only screen and (min-width: $break-large) { @content; }
   }
+  @else if $media == ipad-horizontal {
+    @media only screen and (min-width: 1024px) and (max-width: 1024px) { @content; }
+  }
 }

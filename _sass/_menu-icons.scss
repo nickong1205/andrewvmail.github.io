@@ -1,4 +1,23 @@
-  
+  li.menu-item { 
+    color: white;
+    font-size: 16px;
+  	font-family: KG;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: -4px;
+  	-webkit-text-stroke-color: rgb(255,255,255);
+  	// -webkit-text-stroke-width: 1px;
+  	-webkit-font-smoothing: antialiased;
+  	font-weight:100;
+    // border-bottom: solid 2px $primary;
+    @include respond-to(ipad-horizontal) { 
+    		font-size: 11px;
+    }
+}
+
 li.menu-item a:after{ 
 	background-size: 25px 25px;
 	margin: auto; 
@@ -8,6 +27,13 @@ li.menu-item a:after{
 	font-color: #9D9D9D;
 	width: 25px;
 	height: 25px;
+	@include respond-to(medium-screens) { 
+			padding: 0px; 
+			background-size: 30px 30px;
+			content:"";
+			width: 30px;
+			height: 30px;
+	}
 }
 
 li.menu-item.footer a:after{ 
@@ -33,22 +59,7 @@ li.menu-item.footer {
 	background-color: $primary;
 }
 
-li.menu-item { 
-  color: white;
-  font-size: 16px;
-	font-family: KG;
-  display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-right: -4px;
-	-webkit-text-stroke-color: rgb(255,255,255);
-	// -webkit-text-stroke-width: 1px;
-	-webkit-font-smoothing: antialiased;
-	font-weight:100;
-  // border-bottom: solid 2px $primary;
-}
+
 
 
 
@@ -66,8 +77,14 @@ li.menu-item a:after{
 	 width: 50px;
 	 height: 50px;
 	 font-color: #9D9D9D;
+	 @include respond-to(ipad-horizontal) { 
+	 		padding: 0px; 
+	 		background-size: 35px 35px;
+	 		content:"";
+	 		width: 35px;
+	 		height: 35px;
+	 }
 } 
-
 
 
 li.menu-item.nav a:hover {
