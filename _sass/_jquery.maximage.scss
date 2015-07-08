@@ -169,7 +169,7 @@ div.mc-image {
 			}
 
 			//iPad sizing
-			@media screen and (orientation:portrait) {
+			@media screen and (orientation:portrait) and (min-width: 1024px) and (max-width: 1024px) {
 				div.mc-image:nth-child(10) {
 					background-position: -668px;
 				}
