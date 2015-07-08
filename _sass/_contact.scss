@@ -22,7 +22,8 @@
 
 .contact-headings {
   font-size: 69px;
-  margin-top: 0px;
+  padding-bottom: 36px;
+  // margin-top: 0px;
   @include respond-to(handhelds) { 
   	margin-top: 20px;
   	font-size: 30px;
@@ -31,9 +32,16 @@
 
 .contact-content {
 	font-size:20px;
+	margin-top: 40px;
 	@include respond-to(handhelds) { 
 		margin: 0px;
 		font-size: 15px;
+	}
+	@include respond-to(ipad-vertical) { 
+		margin-top: 0px;
+		margin-bottom: 12px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
 
@@ -48,11 +56,15 @@
 
 .contact-email {
 	font-size:30px;
+	margin-bottom: 40px;
 	a {color: white;}
 	a:hover { color: gray;}
 	a:visited { color: $secondary;}
 	@include respond-to(handhelds) { 
 		font-size: 20px;
+	}
+	@include respond-to(ipad-vertical) { 
+		margin-bottom: 120px;
 	}
 }
 

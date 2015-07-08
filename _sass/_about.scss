@@ -13,20 +13,34 @@ main.Site-content.About {
 		@include respond-to(medium-screens) { 
 	 	margin:10px;
 	}
+	@include respond-to(ipad-vertical) { 
+		margin: 0px;
+	}
 }
 .left-side {
 	background-color: gray;
+	@include respond-to(ipad-vertical) { 
+		overflow:hidden;
+	 	height: 400px;
+	}
 }
 
 .right-side, .left-side {
 	flex:1;
-	// width: 960px;
+	width: 50%;
+	margin: auto;
 	// max-width: 960px;
 	display: flex;
   align-items: center;
   justify-content: center;
   // margin-top: auto;
   // margin-bottom: auto;
+  @include respond-to(ipad-vertical) { 
+  	width:100%;
+  }
+  @include respond-to(handhelds)  { 
+  	width:100%;
+  }
 }
 
 
@@ -62,12 +76,13 @@ main.Site-content.About {
 
 .page-headings {
 	text-align:right;
+	margin-left: 152px;
 	padding-right:50px;
 	background-color:$primary;
 	h1 {
 		font-family:Opificio;
 		color:white;
-		font-size: 50px;
+		font-size: 35px;
 		font-weight: 100;
 		-webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0px;
@@ -78,13 +93,24 @@ main.Site-content.About {
 		@include respond-to(medium-screens) { 
 		 	font-size: 30px;
 		}
+		@include respond-to(ipad-vertical) { 
+		 	margin-top: 0px;
+		}
+	}
+	@include respond-to(ipad-vertical) { 
+	 	margin-left: 0px;
+	}
+	@include respond-to(handhelds)  { 
+		margin-left:0px;
 	}
 }
 
 .content-box {
-	margin-right:10px;
+	margin-right:0px;
 	p {
-		font-size:20px;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-size: 15px;
 		font-family: OpificioN;
 		color:$secondary;
 		line-height: 25px;
@@ -92,7 +118,17 @@ main.Site-content.About {
 			margin:10px;
 			font-size: 15px !important;
 		}
+		@include respond-to(ipad-vertical) { 
+			margin: 0px 30px 0px 30px;
+			line-height: 28px;
+			font-size: 14px;
+		}
+	
 	}
+		@include respond-to(ipad-vertical) { 
+			margin: 0px;
+			margin-top: -20px;
+		}
 }
 
 
