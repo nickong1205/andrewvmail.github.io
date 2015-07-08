@@ -50,6 +50,8 @@ div.mc-image {
 	width:100%;
 }
 
+
+
 .mc-old-browser .mc-image {
 	overflow:hidden;
 }
@@ -164,4 +166,20 @@ div.mc-image {
 				left:0;
 				position:absolute;
 				top:0;
+			}
+
+			//iPad sizing
+			@media screen and (orientation:portrait) {
+				div.mc-image:nth-child(10) {
+					background-position: -668px;
+				}
+				div.mc-image:nth-child(8) {
+					background-position: -533px;
+				}
+				div.mc-image:nth-child(9) {
+					background-position: -582px;
+				}	
+				div.mc-image:nth-child(2) {
+					background-position: -533px;
+				}
 			}
