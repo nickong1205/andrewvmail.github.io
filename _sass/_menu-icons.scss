@@ -51,7 +51,7 @@ li.menu-item.footer a:after{
 li.menu-item.footer { 
 	padding: 10px 10px 40px 20px;
 	@include respond-to(handhelds) { 
-			padding: 0px; 
+			padding: 3px; 
 	}
 }
 

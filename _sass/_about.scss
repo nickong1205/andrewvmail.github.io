@@ -23,6 +23,10 @@ main.Site-content.About {
 		overflow:hidden;
 	 	height: 400px;
 	}
+	@include respond-to(handhelds) { 
+		overflow:hidden;
+	 	height: 190px;
+	}
 }
 
 .right-side, .left-side {
@@ -74,6 +78,8 @@ main.Site-content.About {
 	background-color:white;
 }
 
+
+
 .page-headings {
 	text-align:right;
 	margin-left: 152px;
@@ -102,6 +108,7 @@ main.Site-content.About {
 	}
 	@include respond-to(handhelds)  { 
 		margin-left:0px;
+		padding-right:20px;
 	}
 	@include respond-to(medium-screens)  { 
 		margin-left:0px;
@@ -111,6 +118,9 @@ main.Site-content.About {
 .content-box {
 	margin-right:0px;
 	padding-right: 15px;
+	@include respond-to(handhelds) { 
+		padding-right:0px;
+	}
 	p {
 	  margin: 16px 10px;
 		margin-left: 152px;
@@ -139,5 +149,20 @@ main.Site-content.About {
 		}
 }
 
+h1.page-headings-text {
+	@include respond-to(handhelds) { 
+		margin:0px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-size: 25px;
+	}
+}
+
+.page-description {
+	@include respond-to(handhelds) { 
+		height: 270px;
+		overflow: auto;
+	}
+}
 
 

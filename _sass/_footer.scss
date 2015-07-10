@@ -4,6 +4,16 @@ footer {
 	color: #aaa;
 	border-top: 1px solid #ddd;
 
+	@include respond-to(handhelds) { 
+		padding: 10px;
+		font-size: 15px !important;
+		border-top: 0px;
+		position:fixed;
+		bottom:0px;
+		z-index: 1;
+		width:100%;
+	}
+
 	nav {
 		margin-top: 0px;
 		float: none;

@@ -22,11 +22,12 @@
 
 .contact-headings {
   font-size: 69px;
-  padding-bottom: 36px;
+  padding-bottom: 20px;
   // margin-top: 0px;
   @include respond-to(handhelds) { 
-  	margin-top: 20px;
-  	font-size: 30px;
+  	margin-top: 0px;
+  	font-size: 50px;
+  	padding-bottom: 10px;
   }
 }
 
@@ -49,7 +50,7 @@
 	margin:20px;
 	width:300px;
 	@include respond-to(handhelds) { 
-		width: 150px;
+		width: 250px;
 		margin: 0px;
 	}
 }
@@ -61,7 +62,7 @@
 	a:hover { color: gray;}
 	a:visited { color: $secondary;}
 	@include respond-to(handhelds) { 
-		font-size: 20px;
+		font-size: 17px;
 	}
 	@include respond-to(ipad-vertical) { 
 		margin-bottom: 120px;
@@ -71,4 +72,7 @@
 .email-icon {
 	width: 30px;
 	display: inline-block;
+	@include respond-to(handhelds) { 
+		width: 15px;
+	}
 }

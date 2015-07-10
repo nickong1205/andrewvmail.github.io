@@ -17,6 +17,9 @@
 	@include respond-to(wide-screens) { 
 			width: 30.6666666667%;
 	}
+	@include respond-to(handhelds) { 
+			margin-bottom: 67px;
+	}
 }
 .columns {
 	@include respond-to(handhelds) { 
