@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scbwi LA Conference
+title: SCBWI LA Conference
 subtitle: 
 image: 
 ---
