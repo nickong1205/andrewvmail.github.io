@@ -132,31 +132,27 @@ div.mc-image {
 			a:hover {text-decoration:underline;}
 			
 			.in-slide-content { 
-				p {
-					margin: 12px 0px 7px 0px;
-				}
+				p {margin: 12px 0px 7px 0px;}
 				box-shadow: 0px 5px 20px #8D8D8D;
 				/*border-radius: 25px;*/
 				background-color: #49A8BA;
 				color:white;
 				float:right;
 				font-family: DK, Arista, helvetica;
-				// font-size:40px;
 				right:0;
-				// margin:40px 0px 0px 0px;
-				// padding: 0px 25px 0px 15px;
-				// padding: 0px 38px 0px 21px
-				font-size: 23px;
-		 		padding: 0px 47px 0px 21px;
+				font-size: 35px;
+		 		padding: 0px 55px 0px 20px;
 				position:absolute;
 				bottom:0;
-				/*width:700px;*/
 				z-index:9999; /* Show above .gradient */
 				text-shadow: 0 1px 0 #fff;
 				-webkit-font-smoothing:antialiased;
 				@include respond-to(ipad-horizontal) { 
 		 			font-size: 23px;
 		 			padding: 0px 38px 0px 21px;
+				}
+				@include respond-to(handhelds) { 
+		 			font-size: 23px;
 				}
 			}
 

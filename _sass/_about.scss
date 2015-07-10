@@ -103,18 +103,26 @@ main.Site-content.About {
 	@include respond-to(handhelds)  { 
 		margin-left:0px;
 	}
+	@include respond-to(medium-screens)  { 
+		margin-left:0px;
+	}
 }
 
 .content-box {
 	margin-right:0px;
+	padding-right: 15px;
 	p {
-		margin-right: 10px;
-		margin-left: 10px;
+	  margin: 16px 10px;
+		margin-left: 152px;
 		font-size: 15px;
 		font-family: OpificioN;
-		color:$secondary;
+		color: $secondary;
 		line-height: 25px;
 		@include respond-to(handhelds) { 
+			margin:10px;
+			font-size: 15px !important;
+		}
+		@include respond-to(medium-screens) { 
 			margin:10px;
 			font-size: 15px !important;
 		}
