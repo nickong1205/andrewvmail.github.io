@@ -5,6 +5,11 @@
     font-weight:500;
 }
 
+@mixin reset {
+  margin: 0px;
+  padding: 0px;
+}
+
 $break-small:  640px;
 $break-large: 1024px;
 

@@ -141,7 +141,7 @@ div.mc-image {
 				font-family: DK, Arista, helvetica;
 				right:0;
 				font-size: 35px;
-		 		padding: 0px 55px 0px 20px;
+		 		// padding: 0px 55px 0px 20px;
 				position:absolute;
 				bottom:0;
 				z-index:9999; /* Show above .gradient */
@@ -165,34 +165,4 @@ div.mc-image {
 				top:0;
 			}
 
-			//iPad sizing
-			@media screen and (orientation:portrait) and (min-width: 768px) and (max-width: 768px) {
-				div.mc-image:nth-child(10) {
-					background-position: -533px;
-				}
-				div.mc-image:nth-child(8) {
-					background-position: -533px;
-				}
-				div.mc-image:nth-child(9) {
-					background-position: -533px;
-				}	
-				div.mc-image:nth-child(2) {
-					background-position: -533px;
-				}
-			}
-
-			//iPad sizing
-			@media screen and (orientation:portrait) and (min-width: 320px) and (max-width: 320px) {
-				div.mc-image:nth-child(10) {
-					background-position: -223px;
-				}
-				div.mc-image:nth-child(8) {
-					background-position: -223px;
-				}
-				div.mc-image:nth-child(9) {
-					background-position: -223px;
-				}	
-				div.mc-image:nth-child(2) {
-					background-position: -23px;
-				}
-			}
+		
