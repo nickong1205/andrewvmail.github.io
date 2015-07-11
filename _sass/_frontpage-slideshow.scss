@@ -1,8 +1,12 @@
 
 //Slideshow captions
 .in-slide-content {
-  padding: 1.5vw 2.5vw;
-  font-size: 5vw !important;
+  font-size: 2rem;
+  padding: 1vw 2vw;
+	@include respond-to(handhelds) {
+		font-size: 1rem !important;
+    padding: 1.5vw 2.5vw;
+	}
 }
 
 .in-slide-content-1 {
