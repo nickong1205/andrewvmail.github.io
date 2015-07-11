@@ -2,6 +2,7 @@
 //Slideshow captions
 .in-slide-content {
   padding: 1.5vw 2.5vw;
+  font-size: 5vw !important;
 }
 
 .in-slide-content-1 {
@@ -12,7 +13,6 @@
 .in-slide-content-2 {
 	@include reset;
 	display: block;
-	margin-left: 10vw;
 }
 
 
@@ -36,18 +36,18 @@
 
 //iPhone 4 sizing
 @media screen and (orientation:portrait) and (min-width: 320px) and (max-width: 320px) {
-	div.mc-image:nth-child(10) {
-		background-position: -223px;
-	}
-	div.mc-image:nth-child(8) {
-		background-position: -223px;
-	}
-	div.mc-image:nth-child(9) {
-		background-position: -223px;
-	}	
-	div.mc-image:nth-child(2) {
-		background-position: -23px;
-	}
+	// div.mc-image:nth-child(10) {
+	// 	background-position: -223px;
+	// }
+	// div.mc-image:nth-child(8) {
+	// 	background-position: -223px;
+	// }
+	// div.mc-image:nth-child(9) {
+	// 	background-position: -223px;
+	// }	
+	// div.mc-image:nth-child(2) {
+	// 	background-position: -23px;
+	// }
 }
 
 //iPhone 4 sizing

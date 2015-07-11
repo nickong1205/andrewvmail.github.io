@@ -2,86 +2,41 @@
 layout: default
 title: Home
 permalink: /
+slideshows:
+  - name: 01.jpg
+    text: The first image
+  - name: 02.jpg
+    text: The first image
+  - name: 03.jpg
+    text: The first image
+  - name: 04.jpg
+    text: The first image
+  - name: 05.jpg
+    text: The first image
+  - name: 06.jpg
+    text: The first image
+  - name: 07.jpg
+    text: The first image
+  - name: 08.jpg
+    text: The first image
+  - name: 09.jpg
+    text: The first image
 ---
-
 
 		<a href="" id="arrow_left"><img src="/images/arrow_left_gray.png" onmouseover="this.src='/images/arrow_left_teal.png';" onmouseout="this.src='/images/arrow_left_gray.png';" alt="Slide Left" /></a>
 		<a href="" id="arrow_right"><img src="/images/arrow_right_gray.png" onmouseover="this.src='/images/arrow_right_teal.png';" onmouseout="this.src='/images/arrow_right_gray.png';" alt="Slide Right" /></a>
 
-		<!-- Slideshow 1 -->
     <div id="maximage">
-				<div>
-					<img src="/images/frontpage/01.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>    
-				<div>
-					<img src="/images/frontpage/02.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>    
-				<div>
-					<img src="/images/frontpage/03.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>
-				<div>
-					<img src="/images/frontpage/04.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>  
-				<div>
-					<img src="/images/frontpage/05.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>  
-				<div>
-					<img src="/images/frontpage/06.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>  
-				<div>
-					<img src="/images/frontpage/07.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>  
-				<div>
-					<img src="/images/frontpage/08.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>  
-				<div>
-					<img src="/images/frontpage/09.jpg" alt="" />
-					<img id="gradient" src="/images/demo/gradient.png" alt="" />
-					<div class="in-slide-content" style="display:none;">
-						<div class="in-slide-content-1">Children's Book Illustrator.</div>
-						<div class="in-slide-content-2">Designer in animation industry.</div>
-					</div>
-				</div>      
+		    {% for image in page.slideshows %}
+			  	<div>
+			  		<img src="/images/frontpage/{{image.name}}" alt="{{image.text}}" />
+			  		<img id="gradient" src="/images/demo/gradient.png" alt="Some gradient overlay" />
+			  		<div class="in-slide-content" style="display:none;">
+			  			<div class="in-slide-content-1">Children's Book Illustrator.</div>
+			  			<div class="in-slide-content-2">&nbsp;&nbsp;&nbsp;Designer in animation industry.</div>
+			  		</div>
+			  	</div>    
+		    {% endfor %}
 		</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
