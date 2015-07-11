@@ -153,6 +153,7 @@ div.mc-image {
 				}
 				@include respond-to(handhelds) { 
 		 			font-size: 23px;
+		 			// display:none !important;
 				}
 			}
 
@@ -177,5 +178,21 @@ div.mc-image {
 				}	
 				div.mc-image:nth-child(2) {
 					background-position: -533px;
+				}
+			}
+
+			//iPad sizing
+			@media screen and (orientation:portrait) and (min-width: 320px) and (max-width: 320px) {
+				div.mc-image:nth-child(10) {
+					background-position: -223px;
+				}
+				div.mc-image:nth-child(8) {
+					background-position: -223px;
+				}
+				div.mc-image:nth-child(9) {
+					background-position: -223px;
+				}	
+				div.mc-image:nth-child(2) {
+					background-position: -23px;
 				}
 			}

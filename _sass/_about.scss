@@ -160,8 +160,8 @@ h1.page-headings-text {
 
 .page-description {
 	@include respond-to(handhelds) { 
-		height: 270px;
-		overflow: auto;
+		// height: 270px;
+		// overflow: auto;
 	}
 }
 
