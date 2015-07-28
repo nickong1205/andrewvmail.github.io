@@ -34,8 +34,4 @@ images:
     thumb: thumbnail/07.jpg
     text: The third image
     class: w2
-  - name: 08.jpg
-    thumb: thumbnail/08.jpg
-    text: The third image
-    class: w2
 ---
