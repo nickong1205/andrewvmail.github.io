@@ -38,28 +38,4 @@ images:
     thumb: thumbnail/08.jpg
     text: The third image
     class: w2
-  - name: 09.jpg
-    thumb: thumbnail/09.jpg
-    text: The third image
-    class: w2
-  - name: 10.jpg
-    thumb: thumbnail/10.jpg
-    text: The third image
-    class: w2
-  - name: 11.jpg
-    thumb: thumbnail/11.jpg
-    text: The third image
-    class: w2
-  - name: 12.jpg
-    thumb: thumbnail/12.jpg
-    text: The third image
-    class: w2
-  - name: 13.jpg
-    thumb: thumbnail/13.jpg
-    text: The third image
-    class: w2
-  - name: 14.jpg
-    thumb: thumbnail/14.jpg
-    text: The third image
-    class: w2
 ---
