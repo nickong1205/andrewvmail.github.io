@@ -50,12 +50,13 @@ slideshows:
 				fx: 'scrollHorz',
 				prev: '#arrow_left',
 				next: '#arrow_right',	
-				speed: 2000, // Set the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
+				speed: 500, // Set the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
 				timeout: 5000,
 				pause: 1
 			},
 			fillElement: '#holder',
-			cssBackgroundSize: true
+			cssBackgroundSize: true,
+			cssTransitions: false
 		});
 
 		// To show it is dynamic html text
@@ -68,11 +69,11 @@ slideshows:
 		  if(ev.direction == Hammer.DIRECTION_RIGHT) 
 		  {
 		  	console.log('right');
-		    $('#arrow_right').click();
+		    $('#arrow_left').click();
 		  }
 		  if(ev.direction == Hammer.DIRECTION_LEFT) 
 		  {
-		    $('#arrow_left').click();
+		    $('#arrow_right').click();
 		    console.log('left');
 		  }
 		});
