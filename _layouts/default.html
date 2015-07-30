@@ -30,13 +30,13 @@
       </div>
 
       <nav>
-        <li class="menu-item nav home {% if current[1] == null %}current{% endif %}"><a href="{{ site.baseurl }}/" class="home">Home</a></li>
-        <li class="menu-item nav about {% if current[1] == 'about' %}current{% endif %}"
+        <a href="{{ site.baseurl }}/" class="home"><li class="menu-item nav home {% if current[1] == null %}current{% endif %}">Home</li></a>
+        <a href="{{ site.baseurl }}/about" class="about"><li class="menu-item nav about {% if current[1] == 'about' %}current{% endif %}"
 
-        ><a href="{{ site.baseurl }}/about" class="about">About</a></li>
-        <li class="menu-item nav portfolio {% if (current[1] == 'portfolio' or current[1] == 'personal-work' or current[1] == 'character-design' or current[1] == 'illustration' or current[1] == 'production-design' ) %}current{% endif %}"><a href="{{ site.baseurl }}/portfolio" class="portfolio">Portfolio</a></li>
-        <li class="menu-item nav blog {% if current[1] == 'blog' %}current{% endif %}"><a href="{{ site.baseurl }}/blog" class="blog">Blog</a></li>
-        <li class="menu-item nav contact {% if current[1] == 'contact' %}current{% endif %}"><a href="{{ site.baseurl }}/contact" class="contact">Contact</a></li>
+        >About</li></a>
+        <a href="{{ site.baseurl }}/portfolio" class="portfolio"><li class="menu-item nav portfolio {% if (current[1] == 'portfolio' or current[1] == 'personal-work' or current[1] == 'character-design' or current[1] == 'illustration' or current[1] == 'production-design' ) %}current{% endif %}">Portfolio</li></a>
+        <a href="{{ site.baseurl }}/blog" class="blog"><li class="menu-item nav blog {% if current[1] == 'blog' %}current{% endif %}">Blog</li></a>
+        <a href="{{ site.baseurl }}/contact" class="contact"><li class="menu-item nav contact {% if current[1] == 'contact' %}current{% endif %}">Contact</li>
       </nav>
     </header>
 
